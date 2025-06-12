@@ -13,7 +13,7 @@ AWS.config.update({
 });
 
 const ec2 = new AWS.EC2();
-const INSTANCE_ID = 'i-0adbf6dd618b0e8d3';
+const INSTANCE_ID = 'i-07489b5cffcfb84f4';
 
 app.get('/', (req, res) => {
   res.send('🛰️ API EC2 Control: Enciende y apaga tu instancia.');
